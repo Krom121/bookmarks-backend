@@ -4,11 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 django = "*"
 requests = "*"
 pillow = "*"
+django-cors-headers = "*"
+django-oauth-toolkit = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.8"
